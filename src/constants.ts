@@ -13,9 +13,9 @@ export const ACCOUNT_TYPES: AccountTypes = {
   topstep: {
     label: "Topstep",
     accounts: [
-      { value: "topstep:Fifty", label: "50K Account" },
-      { value: "topstep:OneHundred", label: "100K Account" },
-      { value: "topstep:OneFifty", label: "150K Account" }
+      { value: "topstep:Fifty", label: "50K Account ($2,000 DD)" },
+      { value: "topstep:OneHundred", label: "100K Accounti ($3,000 DD)" },
+      { value: "topstep:OneFifty", label: "150K Account ($4,500 DD)" }
     ]
   }
 };
