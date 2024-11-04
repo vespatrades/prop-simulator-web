@@ -1,5 +1,6 @@
 import { ACCOUNT_TYPES } from '@/constants';
 import { FormField } from './FormField';
+import { MultiplierSelect } from './MultiplierSelect';
 import { SubmitButton } from './SubmitButton';
 import type { CoreParametersProps } from './types';
 
@@ -35,14 +36,10 @@ export function CoreParameters({ isLoading, defaultConfig }: CoreParametersProps
           min="0"
         />
 
-        <FormField
-          label="Point Multiplier"
+	<MultiplierSelect
           name="multiplier"
-          type="number"
-          defaultValue={defaultConfig.multiplier?.toString()}
-          min="0.1"
-          required
-        />
+          defaultValue={defaultConfig.multiplier}
+	/>
 
         <FormField
           label="Iterations"

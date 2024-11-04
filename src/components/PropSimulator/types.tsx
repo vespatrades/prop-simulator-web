@@ -18,6 +18,7 @@ export interface FormFieldProps extends React.InputHTMLAttributes<HTMLInputEleme
   name: string;
   type: string;
   defaultValue?: string;
+  onKeyDown?: (e: React.KeyboardEvent<HTMLInputElement>) => void;
 }
 
 export interface ResultSectionProps {
@@ -38,4 +39,10 @@ export interface SimulationFormProps {
   onSubmit: (e: React.FormEvent<HTMLFormElement>) => Promise<void>;
   isLoading: boolean;
   defaultConfig: Partial<SimulationConfig>;
+}
+
+export interface MultiplierSelectProps {
+  defaultValue?: number;
+  onChange?: (value: number) => void;
+  name: string;
 }
