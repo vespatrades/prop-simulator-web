@@ -45,3 +45,5 @@ coverage/
 # Vite server cache and lock files
 *.lock
 
+# Repomix
+repomix-output.xml
