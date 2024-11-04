@@ -18,7 +18,7 @@ export function PropSimulator({ onSimulationComplete, initialConfig }: PropSimul
     max_simulation_days: 365,
     max_payouts: 12,
     multiplier: 20,
-    round_trip_cost: 4.10,
+    round_trip_cost: 0,
     histogram: true,
     condition_end_state: 'All',
     ...initialConfig

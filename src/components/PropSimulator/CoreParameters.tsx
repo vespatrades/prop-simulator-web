@@ -31,7 +31,7 @@ export function CoreParameters({ isLoading, defaultConfig }: CoreParametersProps
           label="Round Trip Cost"
           name="roundTripCost"
           type="number"
-          defaultValue={defaultConfig.round_trip_cost?.toString()}
+          defaultValue={defaultConfig.round_trip_cost?.toString() || 0}
           step="0.01"
           min="0"
         />
