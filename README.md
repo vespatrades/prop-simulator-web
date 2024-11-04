@@ -41,7 +41,6 @@ The Prop Trading Simulator Web UI works in conjunction with the [Rust-based simu
   - Tailwind CSS
   - shadcn/ui components
 - **State Management**: React Hooks
-- **Testing**: Vitest & Testing Library
 
 ## 🛠️ Development Setup
 
